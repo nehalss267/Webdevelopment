@@ -1,0 +1,9 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+.outer-box{
+    background-color:lightcoral;
+    color:aliceblue;
+}
