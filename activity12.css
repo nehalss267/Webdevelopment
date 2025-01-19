@@ -1,0 +1,166 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4f7fc;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+table{
+    text-align: center;
+}
+header.main_header {
+    background-image: url("Copy\ of\ Nehal\ Solanki.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width:100%;
+    background-size: cover;
+}
+header {
+    background-color: #3c122f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 14px 16px;
+    width: 100%;
+}
+nav a {
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+
+}
+nav a:hover {
+    background-color: #ff8c00;
+    color: black;
+}
+#nav-pg table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    
+}
+li{
+    list-style-type:none;
+}
+#nav-pg th, #nav-pg td {
+    font-weight:bold;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#nav-pg th {
+    background-color: #444;
+    color: white;
+}
+
+#nav-pg td a {
+    color: #b83387;
+    text-decoration: none;
+}
+
+#nav-pg td a:hover {
+    text-decoration: underline;
+}
+#table_center{
+    margin:0 0 0 30px;
+}
+#home-pg p{
+    color: black;
+}
+#home-pg, #nav-pg, #blog-pg, #contact_us-pg {
+    font-weight: 100;
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+   
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    background: rgba(184, 51, 135, 0.85);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7.5px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 48px rgba(31, 38, 135, 0.5);
+}
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+
+}
+input:focus {
+    border-color: #ff8c00;
+    outline: none;
+}
+
+button {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+
+}
+button:hover {
+    background-color: #e77f00;
+}
+p {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 14px;
+}
+a {
+    color: #ffd700;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

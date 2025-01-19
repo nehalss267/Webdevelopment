@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f4f7fc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .outer-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 20px;
+        }
+        .card {
+            background: rgba(184, 51, 135, 0.85);
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(7.5px);
+            -webkit-backdrop-filter: blur(7.5px);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            padding: 30px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 48px rgba(31, 38, 135, 0.5);
+        }
+        .card h1 {
+            color: #fff;
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        input:focus {
+            border-color: #ff8c00;
+            outline: none;
+        }
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        button {
+            background-color: #ff8c00;
+            color: white;
+            border: none;
+            padding: 14px 20px;
+            border-radius: 6px;
+            width: 100%;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #e77f00;
+        }
+        p {
+            color: #fff;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <form action="activity12.html#contact_us-pg" method="get" class="card">
+                <h1>Sign Up</h1>
+                <input type="text" placeholder="Username" name="Username" required><br>
+                <input type="email" placeholder="Email" required><br>
+                <input type="password" placeholder="Password" required><br>
+                <input type="password" placeholder="Confirm Password" required><br>
+                <table>
+                    <td><input type="checkbox" required></td>
+                    <td><label>I accept the <a href="#">Terms Of Use</a> and <a href="#">Privacy Policy</a></label></td>
+                </table>
+                <br>
+                <button type="submit">Sign Up</button>
+                <p>Already have an account? <a href="signIn.html">Log In</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
